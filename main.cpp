@@ -3,11 +3,11 @@ using namespace std;
 
 
 void tester_parametres(int* tableau, int taille) {
-    cout << taille << " paramètres executes." << endl;
+    cout << taille << " paramÃ¨tres executes." << endl;
 }
 
 int main() {
-    int nb_params = 10000;
+    int nb_params = 100;
     int* tableau;
 
     while (1) {
@@ -15,7 +15,7 @@ int main() {
         tableau = (int*) malloc(nb_params * sizeof(int));
 
         if (tableau == NULL) {
-            cout << "Erreur : Impossible d'allouer la mémoire pour " << nb_params << " paramètres." << endl;
+            cout << "Erreur : Impossible d'allouer la mÃ©moire pour " << nb_params << " paramÃ¨tres." << endl;
             break;
         }
 
